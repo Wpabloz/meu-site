@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio acadêmico de ADS para a disciplina de Desenvolvimento Web II - UNIFIP.">
+    <title>Portfólio ADS | UNIFIP</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">ADS<span>Dev</span></h1>
+            <ul class="menu">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Desenvolvimento Web II</h2>
+            <p>Construindo soluções modernas com HTML5, CSS3 e foco em UX/UI.</p>
+            <a href="#projetos" class="btn">Explorar Projetos</a>
+        </section>
+
+        <section id="sobre" class="sobre">
+            <h2>Sobre o Desenvolvedor</h2>
+            <p>Estudante de Análise e Desenvolvimento de Sistemas na UNIFIP</p>
+            <img src="assets/perfil.jpg" alt="Foto de perfil do estudante de ADS (meme Doge Shiba Inu)">
+        </section>
+
+        <section id="projetos" class="projetos">
+            <h2>Meus Projetos Técnicos</h2>
+            
+            <div class="grid-container">
+                <div class="card">
+                    <img src="assets/projetos/projeto1.jpg" alt="Captura de tela de um sistema de cadastro de clientes">
+                    <div class="card-body">
+                        <h3>Sistema de Cadastro</h3>
+                        <p>Interface responsiva focada em eficiência e entrada de dados estruturada.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/projetos/projeto2.jpg" alt="Interface de gerenciador de tarefas acadêmicas">
+                    <div class="card-body">
+                        <h3>Gestor de Tarefas</h3>
+                        <p>Aplicação web para controle de prazos e organização de estudos.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/projetos/projeto3.jpg" alt="Dashboard com gráficos de análise de sistemas">
+                    <div class="card-body">
+                        <h3>Dashboard ADS</h3>
+                        <p>Painel administrativo para visualização de métricas e performance.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contato">
+            <h2>Entre em Contato</h2>
+            <form>
+                <label for="nome" style="display:none;">Nome</label>
+                <input type="text" id="nome" placeholder="Seu Nome Completo" required>
+
+                <label for="email" style="display:none;">E-mail</label>
+                <input type="email" id="email" placeholder="Seu melhor e-mail" required>
+
+                <label for="mensagem" style="display:none;">Mensagem</label>
+                <textarea id="mensagem" placeholder="Como posso ajudar no seu projeto?" rows="5" required></textarea>
+
+                <button type="submit" class="btn">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 | UNIFIP - Aluno Wesley Pablo | ADS</p>
+    </footer>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>new window.VLibras.Widget();</script>
+</body>
+</html>
